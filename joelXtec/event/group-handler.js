@@ -40014,7 +40014,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
                text: `╭───────────────━⊷
-║ ᴊᴏᴇʟ xᴍᴅ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇɴᴜ ᴍᴇɴᴜ
+║ ᴊᴏᴇʟ xᴍᴅ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇɴᴜ
 ╰───────────────━⊷
 > Hello @${userName}! Welcome to *${metadata.subject}*.\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}
 "`, contextInfo: {
@@ -40025,7 +40025,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                      previewType: 0,
                      renderLargerThumbnail: true,
                      thumbnailUrl: metadata.subject,
-                     sourceUrl: 'github.com/joeljamestech2/joel-xmd'
+                     sourceUrl: 'https://github.com/joeljamestech2/JOEL-XM'
                   }
                }
             })
@@ -40041,7 +40041,7 @@ export default async function GroupParticipants(sock, { id, participants, action
 > ɢᴏᴏᴅʙʏᴇ ᴀ ғᴏʟʟᴇɴ sᴏʟᴅᴇʀ @${userName} from ${metadata.subject}.\n> ᴡᴇ ᴀʀᴇ ɴᴏᴡ ${membersCount} in the group.\n> ʟᴇғᴛ ᴀᴛ: ${leaveTime} on ${leaveDate}"`, contextInfo: {
                   mentionedJid: [jid],
                   externalAdReply: {
-                     title: `ɢᴏᴏᴅʙʏᴇ ᴀ ғᴏʟʟᴇɴ sʟᴏᴅᴇʀ`,
+                     title: `ɢᴏᴏᴅʙʏᴇ ᴀ ғᴏʟʟᴇɴ sᴏʟᴅɪᴇʀ`,
                      mediaType: 1,
                      previewType: 0,
                      renderLargerThumbnail: true,
